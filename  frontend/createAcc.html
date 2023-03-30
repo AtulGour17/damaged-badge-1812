@@ -1,0 +1,350 @@
+<!-- new -->
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Sign up Page</title>
+      <style>
+        *{
+            margin:0px;
+            font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+        }
+        body{
+  margin:0px;
+  padding:0px;
+
+  font-family: Montserrat,sans-serif;
+}
+.navbar{
+    width:100%;
+    /* height:80px; */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    /* border:solid red 1px; */
+}
+.Healthkart{
+    display: flex;
+    width:90%;
+    height:80px;
+    margin: auto;
+    margin-top:0.5%;
+    /* border:solid red 1px; */
+}
+
+.HealthIMG{
+    margin: auto;
+    width:18%;
+    /* height:60px; */
+    /* border:solid rgb(19, 18, 18) 1px; */
+}
+
+.IMAGE{
+   width:100%;
+   display: block;
+   height:80px;
+ }
+
+.InputTAG{
+    margin: auto;
+    width:60%;
+    height:55%;
+    font-size:15px;
+    border:0px;
+    border-radius:8px;
+    background-color: rgb(249, 248, 248);
+}
+.Login{
+    width:6%;
+    height:40%;
+}
+.LoginBTN{
+    margin: auto;
+    width:8%;
+    height:55%;
+    background-color:  #00b5b7;
+    border:0px;
+    border-radius:5px;
+    font-size:16px;
+    color: aliceblue;
+}
+.LoginBTN:hover{
+    cursor: pointer;
+    background-color:#2dc4c6 ;
+}
+
+         #continer{
+            width:90%;
+            /* height:400px; */
+            max-width:450px;
+            margin-top:80px;
+            position:absolute;
+            top:45%;
+            left:50%;
+            transform:translate(-50%,-50%);
+            text-align: center;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            padding:50px 40px 70px;
+            border-radius:20px;
+            
+         }
+         #name{
+           width:70%;
+           height:40px;
+           margin-top:20px;
+           font-size:18px;
+           border-radius:10px;
+           border:solid 1px gray;
+         }
+         #email{
+            width:70%;
+           height:40px;
+           font-size:18px;
+           margin-top:20px;
+           border-radius:10px;
+           border:solid 1px gray;
+         }
+         #password{
+            width:70%;
+           height:40px;
+           font-size:18px;
+           margin-top:20px;
+           border-radius:10px;
+           border:solid 1px gray;
+         }
+         #submit{
+            margin-top:30px;
+            width:20%;
+            height:40px;
+            text-align: center;
+            font-size:18px;
+            border:18px;
+            border-radius:16px;
+            color:white; 
+            background-color:#0768eff1;
+         }
+         #submit:hover{
+          background-color:#5a9bf5;
+          cursor: pointer;
+        }
+
+       .Signup{
+        margin-top:30px;
+           
+           width:20%;
+           height:40px;
+           text-align: center;
+           font-size:18px;
+           border:18px;
+           border-radius:16px;
+           color:white; 
+           background-color:rgba(3, 176, 244, 0.956);
+           margin-left:100px;
+            
+         }
+         .Signup:hover{
+          background-color:#75b4f8b0;
+          cursor:pointer;
+         }
+         a{
+          text-decoration: none;
+          color:white;
+         }
+         .main{
+          background-color:#003580;
+          display: flex;
+          width:100%;
+          height:100px;
+          justify-content: space-between;
+          
+         }
+         .min{
+           
+            margin-top:38px;
+            margin-left:15%;
+           
+         }
+         .main2{
+          width:10%;
+          height:40px;
+          margin-top:30px;
+          margin-right:15%;
+          display:flex;
+         
+         }
+         .main2 > div{
+          margin: auto;
+          width:30%;
+          height:100%;
+          border-radius:50px;
+          text-align: center;
+        
+         }
+        
+         .main2 > div img{
+          width:100%;
+          border-radius:50px;
+         
+         }
+         .main2 > div p{
+          margin-top:20%;
+          font-size:20px;
+          color:white;
+         
+         }
+         h2{
+          color:white;
+         }
+         .circle{
+          border:solid 1px white;
+         }
+         .image{
+            width:72%;
+            height:60px;
+            margin: auto;
+            margin-top:50px;
+            margin-left:19%;
+            display: grid;
+            gap:40px;
+            grid-template-columns:repeat(3,1fr);
+           
+         }
+         .image > div{
+           width:55%;
+           height:48px;
+           padding:8px;
+           border-radius:12px;
+           border:solid 1px rgb(185, 182, 182);
+         }
+         .image > div img{
+          width:100%;
+         }
+         .image > div:hover{
+          cursor: pointer;
+          border:solid 1px rgb(7, 122, 167);
+         }
+         .message{
+          margin-top:60px;
+          font-size:12px;
+         }
+         #head:hover{
+           cursor: pointer;
+         }
+        
+
+        
+      </style>
+       <script src="https://kit.fontawesome.com/aaf04754d4.js" crossorigin="anonymous">
+        
+       </script>
+       <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    </head>
+    
+    <body>
+      <div class="navbar">
+        <div class="Healthkart">
+           <div class="HealthIMG">
+               <img class="IMAGE" src="https://static1.hkrtcdn.com/hknext/static/media/common/hk.png" alt="" >
+           </div>
+          
+            <input type="text" placeholder="Search for your products and brands" class="InputTAG">
+           
+           <!-- <div class="Login"> -->
+            <button class="LoginBTN" id="LoginBTN">Login</button>
+           <!-- </div> -->
+        </div>
+    </div>
+
+      <div id="continer">
+        <h1>Create you account</h1>
+        <form id="form">
+          <i class="fa-solid fa-user"></i>
+          <input type="text" id="name" placeholder="Username"><br>
+
+          <i class="fa-solid fa-envelope"></i>
+          <input type="email" id="email" placeholder="Email" ><br>
+
+          <i class="fa-solid fa-key"></i>
+          <input type="password"  id="password" placeholder="Password"><br>
+          <input id="submit" type="submit" value="Submit" />
+
+           <!-- <a href="./createAcc.html">Signin</a> -->
+        <button class="Signup"><a href="./login.html">Signup</a></button>
+         
+          
+        </form>
+        <!-- ----------------- -->
+
+        <div class="image">
+          <div>
+            <img src="https://www.mhpcolorado.org/wp-content/uploads/2021/02/TS-FB-Icon.png" alt="">
+          </div>
+          <div>
+            <img src="https://cdn-teams-slug.flaticon.com/google.jpg" alt="">
+          </div>
+          <div>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTu-kopsZTuqQE7qm2d14z4sOfd053Te9VBbGBq7TxoDg&s" alt="">
+          </div>
+        </div>
+      
+           <div class="message">
+            <hr>
+            <br>
+            <p>By signing in or creating an account, you agree <br> with our Terms & conditions and Privacy statement</p>
+            <br>
+            <hr>
+           </div>
+      </div>
+        
+    </body>
+    <script src="./createAcc.js">
+      
+      let userdata = [];
+      let myform = document.querySelector("form");
+      myform.addEventListener("submit",function(e){
+        e.preventDefault();
+        let formData = {
+          name : myform.name.value,
+          email : myform.email.value,
+          password : myform.password.value,
+         
+        }
+       
+
+        if(formData.name == "" || formData.email == "" || formData.password == "" ){
+           
+            // swal("Please fill all the Details")
+            swal("Please fill all the Details!", "Retry!", "warning")
+
+        }
+        else{
+          userdata.push(formData);
+          localStorage.setItem("userData",JSON.stringify(userdata));
+          // alert("Account Created!" + " " +  "Welcome To Booking.Com!" + " " + "success");
+          swal({
+           title: "Account Created!",
+           text: "WE COME TO BOOKING.COM!",
+           icon: "success",
+           button: "ok!",
+});
+        
+         setTimeout(()=>{
+            window.location.href = "./login.html"
+         },2500)
+        }
+      });
+      
+       let head = document.getElementById("head")
+       head.addEventListener("click" ,() =>{
+       window.location.href = "./index.html"
+        })
+
+        let LoginBTN = document.getElementById("LoginBTN");
+     LoginBTN.addEventListener("click",() => {
+        window.location.href = "./login.html"
+     })
+
+    </script>
+    
+    </html>
