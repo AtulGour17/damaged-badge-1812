@@ -25,11 +25,11 @@
     <!-- ---------------------- -->
 
     <div class="NavBar2">
-          <div>Best seller</div>
-          <div>Brands</div>
+          <div id="Home">Home</div>
+          <div id="Brands">Brands</div>
           <div>Deals</div>
           <div>Blogs</div>
-          <div>Gift Crad</div>
+          <div id="YourCard">Your Crad</div>
           <div>Custormer Support</div>
           <div><i class="fa-solid fa-location-dot"></i></i>Store Location</div>
     </div>
@@ -525,6 +525,18 @@
   <p>© 2023 Flex, Inc. &amp; Flex eCommerce LLC. All Rights Reserved.</p>
 
   <!-- END of FOOTER -->
-  <script src="./index.js"></script>
+  <script >
+    let YourCard = document.getElementById("YourCard");
+  
+    YourCard.addEventListener("click",()=>{
+     window.location.href = "" 
+    });
+   
+    Brands.addEventListener("click",()=>{
+     window.location.href = "./card.html" 
+    });
+
+
+  </script>
 </body>
 </html>

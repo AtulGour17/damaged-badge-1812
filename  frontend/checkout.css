@@ -1,0 +1,218 @@
+#cont{
+    width: 98%;
+    height: 500px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+}
+
+#cart{
+    width: 60%;
+    height: 500px;
+    /* border: 1px solid rgb(209, 19, 19); */
+}
+#order-container{
+    
+}
+#price{
+    width: 37%;
+    height: 300px;
+    margin-top:20px;
+  
+   /* margin-left:40%; */
+    box-shadow: rgba(2, 85, 168, 0.2) 0px 8px 24px;
+}
+#price>div:nth-child(1){
+    border-bottom: 1px dotted rgb(201, 54, 54);
+    text-align: center;
+}
+
+#price>div:nth-child(1) h3{
+    color: black;
+}
+
+#price>div:nth-child(2){
+    display: flex;
+    justify-content: space-around;
+    text-decoration: underline;
+}
+
+#price>div:nth-child(2) h3,h4{
+    color: rgb(193, 12, 12);
+}
+#price>div:nth-child(3){
+    display: flex;
+    justify-content: space-around;
+}
+
+#price>div:nth-child(3) h3,h4{
+    color: rgb(65, 61, 61);
+}
+
+#total-price{
+    margin-left: 45px;
+}
+
+#price>div:nth-child(4){
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    border-top: 1px dotted rgb(161, 158, 158);
+}
+
+.cart-cards{
+    width: 90%;
+    padding: 10px;
+    padding-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 14px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.plusminus{
+    /* width: 100%;
+    height: 50px; */
+    font-size: 25px;
+    text-align: center;
+    border: 28px;
+    border-radius: 10px;
+    background: rgb(243, 241, 241);
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.plusminus:hover{
+    cursor: pointer;
+}
+.remove-btn{
+    background: none;
+    font-weight: bold;
+    border: none;
+    margin-left: 10px;
+}
+.remove-btn:hover{
+    color: rgb(255, 35, 35);
+    cursor: pointer;
+}
+
+.changer-div{
+    /* width: 100%; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:40px;
+   
+}
+#checkout{
+    color: white;
+    margin-top: 10px;
+    padding: 20px 180px;
+    background-color: skyblue;
+    border: none;
+    font-size: large;
+}
+#checkout:hover{
+    background-color: rgb(30, 161, 213);
+    cursor: pointer;
+}
+.image-div{
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+   
+}
+.image-div img{
+    width: 100%;
+}
+#discription{
+    color:gray;
+}
+#prices{
+    color:red;
+}
+
+
+
+/* ---- */
+
+body{
+    margin:0px;
+    padding:0px;
+  
+    font-family: Montserrat,sans-serif;
+  }
+  .navbar{
+      width:100%;
+      /* height:80px; */
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      /* border:solid red 1px; */
+  }
+  .Healthkart{
+      display: flex;
+      width:90%;
+      height:80px;
+      margin: auto;
+      margin-top:0.5%;
+      /* border:solid red 1px; */
+  }
+  
+  .HealthIMG{
+      margin: auto;
+      width:18%;
+      /* height:60px; */
+      /* border:solid rgb(19, 18, 18) 1px; */
+  }
+  
+  .IMAGE{
+     width:100%;
+     display: block;
+     height:80px;
+   }
+  
+  .InputTAG{
+      margin: auto;
+      width:60%;
+      height:55%;
+      font-size:15px;
+      border:0px;
+      border-radius:8px;
+      background-color: rgb(249, 248, 248);
+  }
+  .Login{
+      width:6%;
+      height:40%;
+  }
+  .LoginBTN{
+      margin: auto;
+      width:8%;
+      height:55%;
+      background-color:  #00b5b7;
+      border:0px;
+      border-radius:5px;
+      font-size:16px;
+      color: aliceblue;
+  }
+  .LoginBTN:hover{
+      cursor: pointer;
+      background-color:#2dc4c6 ;
+  }
+  
+  /* ---------------------- */
+  .NavBar2{
+      display: flex;
+      width:100%;
+      height:60px;
+      /* border:solid rgb(19, 18, 18) 1px; */
+  }
+  .NavBar2 div{
+   
+     padding:10px;
+     margin: auto;
+     border-radius:10px;
+  
+  }
+  .NavBar2 div:hover{
+      background-color: rgb(241, 243, 244);
+      cursor: pointer;
+  }
