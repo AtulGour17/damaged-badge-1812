@@ -115,7 +115,9 @@ low.addEventListener("click",()=>{
 
 
 
-
+YourCard.addEventListener("click",()=>{
+  window.location.href = "./checkout.html" 
+})
 
 
   let LoginBTN = document.getElementById("LoginBTN");

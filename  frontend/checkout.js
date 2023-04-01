@@ -132,3 +132,11 @@ checkout.addEventListener("click",()=>{
   window.location.href="payment.html"
   }
 })
+let home = document.getElementById("Home")
+    home.addEventListener("click",()=>{
+      window.location.href = "./index.html" 
+    })
+    let brand = document.getElementById("brand")
+    brand.addEventListener("click",()=>{
+      window.location.href = "./card.html" 
+    })
